@@ -1,0 +1,37 @@
+
+    <div class="shunt">
+        <div class="hitler">
+            <a routerLink="/"> <img src="http://app.prideeducare.com/assets/site-logo-png.png"></a>
+           <span class="inl"> Pride Computer Mumbai </span> 
+
+       
+        </div>
+
+     <div class="bu">
+       <li class="tin" style="background: #238aca!important;">
+        <span class="lo">My DASHBOARD</span></li>
+        <li class="tin">
+        <a routerLink="/profile" > <span class="lo">My Profile</span></a></li>
+          <li class="tin">
+            <span class="lo">Live Batch</span></li>
+            <li class="tin" id="tin" [class.color]="id=== 'tin'" (click)="tabChange('tin')" >
+              <span class="lo">HUZAIFA TAUFIQUE DABIR</span></li>
+              <div class="content">
+                <div class="content-value" *ngIf="id=== 'tin'">
+         
+                    <p class="pin">Huzaifa Dabir Taufique</p>
+            
+                     <div class="button">
+                 <a routerLink="/"><button class="btn">Sign Out</button></a>
+                     </div>
+                </div>
+              
+              </div>
+     </div>
+    
+             
+       
+    </div>
+
+
+    <app-profiles></app-profiles>

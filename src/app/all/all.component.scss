@@ -1,0 +1,186 @@
+.hu{
+    padding-top: 400px;
+    background-color: #262746;
+   width: 102%;
+    right: 0;
+    margin-left: -35px;
+    height: 120vh;
+}
+
+.pun{
+    color: white;
+    font-size: 20px;
+    margin-left: 60px;
+    padding-top: 7px;
+}
+
+
+
+.jui{
+   color: white;
+   padding-top: 20px;
+   margin-left: 52px;
+   font-size: 19px;
+   font-style: italic;
+   text-decoration: underline;
+   height: 10px;
+   
+}
+
+.lui{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    height: 170px;
+    width: 80%;
+    background: #383876;
+    margin-left: 10%;
+    display: flex;
+    margin-top: 25px;
+}
+
+
+
+.bul p{
+    padding-top: 9px;
+    color: white;
+    margin: 0px 8px;
+}
+.bul img{
+    height: 105px;
+    margin-left: 10px;
+    padding: 10px 4px;
+}
+
+.du{
+    display: flex;
+}
+
+
+.bal{
+    background: linear-gradient(to right,#65239f 0,#582063 100%);
+    height: 70px;
+    width: 80%;
+   margin-left: 10%;
+   float: left;
+   margin-right: 1%;
+}
+
+.circle {
+    width: 15px;
+    height: 15px;
+    border: 1px solid white;
+    border-radius: 50px;
+     margin-top: 17px;
+    margin-left: 17px;
+    // padding-top: 15px;
+    
+}
+
+.hi{
+    padding-top: 30px;
+}
+
+.shal{
+    padding-top: 2px;
+     display: flex;
+   
+}
+.van{
+    color: white;
+    padding-top: 5px;
+    margin-left: 15px;
+}
+
+.bill{
+    padding-top: 30px;
+}
+.ui{
+    padding-top: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    height: 260px;
+    width: 95%;
+    background: #383876;
+    margin-left: 7%;
+    display: flex;
+}
+
+.bill p{
+    color: white;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+.win img{
+    height: 90px;
+}
+.win{
+    padding-top: 10px;
+    margin-left: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
+    height: 216px;
+
+}
+
+.hitm{
+    margin-left: 3px;
+    font-size: 18px;
+  color: #383876;
+  font-weight: 600;
+    // border-bottom-left-radius: 6px;
+    // border-bottom-right-radius: 6px;
+}
+
+
+@media only screen and(max-width:1069px){
+  .lui{
+      max-width: 62%;
+      height: 100px;
+      margin: 1px auto;
+      margin-top: 10px;
+  }
+
+  .bul p{
+      font-size: 9px;
+  }
+
+    .bul img{
+        height: 55px;
+       
+    }
+
+    .pun{
+        font-size: 16px;
+        padding-top: 12px;
+        margin-left: 12%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .jui{
+        font-size: 15px;
+        margin-left: 10%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .bal{
+        margin: 1px auto;
+        height: 74px;
+      max-width: 62%;
+      margin-left: 19%;
+    }
+
+    .van{
+        font-size: 12px;
+        padding-top: 6px;
+    }
+
+    .ui{
+        height: 240px;
+        max-width: 100%;
+        margin: 1px auto;
+    }
+
+   .bill p{
+       margin-left: -60px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+}

@@ -1,0 +1,39 @@
+
+
+.ber img{
+    height: 50px;
+    cursor: pointer;
+}
+
+.dal{
+    display: flex;
+}
+
+.ber{
+    width: 85%;
+}
+
+.bin{
+    padding-top: 15px;
+    margin: 2px 5px;
+}
+
+.kat{
+   
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 6px 19px;
+    text-align: center;
+    justify-content: center;
+    // background: #84c1ef!important;
+    text-transform: uppercase;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 500;
+   cursor: pointer;
+}
+
+
+.bin a{
+    text-decoration: none;
+    color: black;
+}

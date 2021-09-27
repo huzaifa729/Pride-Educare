@@ -1,0 +1,165 @@
+.byn{
+    background-color: #262746;
+    height: 70vh;
+  margin-left: -8px;
+//   margin-right: -px;
+ 
+}
+
+
+.hits{
+    display: flex;
+ 
+}
+
+.dull{
+    width: 30%;
+}
+
+.bik{
+    margin-top: 15%;
+    margin-left: 15%;
+}
+
+.btn{
+    margin: 1px 4px;
+    width: 24%;
+    height: 33px;
+    text-align: center;
+    background: #0064e6;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    color: black;
+}
+
+.form{
+    padding-top: 15px;
+    margin-left: 66px;
+   
+}
+
+.form input{
+    width: 37%;
+    // height: 28px;
+    padding: 9px;
+    padding-top: 11px;
+}
+
+.nyn{
+     padding: 10px;
+    background: #2196f3;
+    border: none;
+    width: 15%;
+   cursor: pointer;
+}
+
+.nyn i{
+    color: white;
+    font-size: 18px;
+
+
+}
+
+.All{
+    margin-left: 65px;
+    margin-top: 5px;
+}
+
+.pin{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    cursor: pointer;
+}
+
+.pin span::before{
+    content: "";
+    position: absolute;
+    width: 0%;
+    top: 100%;
+    height: 2px;
+    background-color: white;
+    transition: all 1.2s ease;
+
+}
+
+.pin span:hover::before{
+    width: 25%;
+}
+
+.All li{
+    list-style: none;
+    padding: 2px;
+   
+}
+
+.ui{
+    // width: 1em;
+     height: 1em;
+    // height: 3px;
+    width: 5%;
+    cursor: pointer;
+ 
+}
+
+
+
+
+
+.All label{
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.vert{
+    width: 50%;
+    margin-top: 5%;
+}
+
+.br{
+    background: #1d1e3e;
+    width: 124%;
+    height: 30px;
+    color: white;
+    display: flex;
+    
+}
+
+.li{
+    margin-top: -0px;
+    padding: 5px 8px;
+  
+}
+
+
+.hunt{
+    list-style: none;
+    padding: 5px 8px;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: white;
+}
+
+.nil{
+//    margin-left: 150px;
+   padding: 3px;
+  text-align: right;
+
+  width: 40%;
+
+}
+
+// .mat-tab-group{
+// background-color: red;
+    
+// }
+
+
+
+
+

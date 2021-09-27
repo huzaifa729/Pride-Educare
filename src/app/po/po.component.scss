@@ -1,0 +1,144 @@
+// .kal{
+//     display: flex;
+//     padding-top: 10px;
+   
+// }
+
+// .navbar{
+//     background: #262746;
+//     padding-bottom: 26px;
+// }
+
+// .item{
+//     list-style: none;
+//     padding: 2px 15px;
+//     background-color: darkcyan;
+//     border-radius: 34px;
+//     color: white;
+//     text-transform: uppercase;
+//     font-size: 12px;
+//     margin: 2px 5px;
+// }
+
+
+ .it{
+     
+   margin-left: 55px;
+}
+
+
+
+.btn{
+    border: none;
+    border-radius: 50px;
+   background:  #9a7cc6;
+    margin: 1px 4px;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: white;
+   margin-bottom: 5px;
+    height: 25px;
+cursor: pointer;
+}
+
+.gar{
+    padding-top: 20px;
+    padding-bottom: 28px;
+//   background-color: #262746;
+  display: flex;
+}
+
+.hut{
+    background-color: #262746;
+    margin-left: -35px;
+    width: 102%;
+}
+
+
+
+
+.hint{
+  margin-left: 190px;
+}
+
+.hint img{
+    height: 12px;
+}
+
+
+.button{
+    border: none;
+    border-radius: 50px;
+    background: #f6862d;
+    font-size: 12px;
+    text-transform: uppercase;
+    width: 200px;
+   height: 32px;
+   cursor: pointer;
+}
+
+.po{
+    padding: 0px 5px;
+}
+
+.button:hover{
+    color: white;
+}
+
+
+.maindiv{
+    left: 0;
+    width: 99%;
+   height: 400px;
+  position: absolute;
+    background-image: url('https://weq-pride.s3.ap-south-1.amazonaws.com/data/bannerImages/DIGITAL+MARKETING+BANNER.jpg');
+   background-size: cover;
+  
+   
+//    transform: translate(-50%,-50%);
+
+   animation: animate 12s infinite linear;
+}
+
+
+@keyframes animate{
+    0%{
+        background-image: url('https://weq-pride.s3.ap-south-1.amazonaws.com/data/bannerImages/DIGITAL+MARKETING+BANNER.jpg');
+    }
+   
+    40%{
+        background-image: url('https://weq-pride.s3.ap-south-1.amazonaws.com/data/bannerImages/GRAPHIC+DESIGNING+BANNER.jpg');
+    }
+
+    80%{
+        background-image: url('https://weq-pride.s3.ap-south-1.amazonaws.com/data/bannerImages/app+bannner+2.jpg');
+    }
+
+   
+
+   
+}
+
+
+
+@media only screen and (max-width: 1070px){
+    .it{
+        display: inline-block;
+        height: 73px;
+        max-width: 70%;
+    }
+
+    .btn{
+        font-size: 10px;
+    }
+
+
+    .hint{
+    margin-right: 27%;
+   
+   
+    }
+
+
+   
+}
